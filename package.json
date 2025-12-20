@@ -1,0 +1,48 @@
+{
+	"name": "@7otion/tauri-file-uploader",
+	"version": "0.0.0",
+	"description": "A lightweight, unstyled file uploader component library for React + Tauri applications",
+	"type": "module",
+	"main": "./dist/index.js",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"import": "./dist/index.js",
+			"types": "./dist/index.d.ts"
+		}
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsc",
+		"format": "bunx prettier --write '**/*.{js,jsx,ts,tsx,json,css}' --ignore-path .prettierignore",
+		"clean": "rm -rf dist"
+	},
+	"keywords": [
+		"tauri",
+		"react",
+		"file-upload",
+		"dropzone",
+		"drag-and-drop",
+		"unstyled",
+		"headless"
+	],
+	"author": "",
+	"license": "MIT",
+	"peerDependencies": {
+		"react": "^19.0.0",
+		"@tauri-apps/api": "^2.0.0",
+		"@tauri-apps/plugin-dialog": "^2.0.0",
+		"@tauri-apps/plugin-fs": "^2.0.0"
+	},
+	"devDependencies": {
+		"@types/react": "^19.0.0",
+		"typescript": "^5.3.0",
+		"react": "^19.0.0"
+	},
+	"dependencies": {
+		"lucide-react": "^0.263.1"
+	}
+}

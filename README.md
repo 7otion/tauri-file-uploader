@@ -1,5 +1,3 @@
-# @7otion/tauri-file-uploader
-
 A lightweight, unstyled file uploader component library for React + Tauri applications.
 
 ## ✨ Key Features

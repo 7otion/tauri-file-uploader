@@ -29,7 +29,7 @@
 		"unstyled",
 		"headless"
 	],
-	"author": "",
+	"author": "Burak Kartal",
 	"license": "MIT",
 	"peerDependencies": {
 		"react": "^19.0.0",
